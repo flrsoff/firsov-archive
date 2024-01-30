@@ -1,0 +1,29 @@
+﻿<Window x:Class="Archiver.WarningWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Archiver"
+        mc:Ignorable="d"
+        Title="WarningWindow" Height="150" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+            x:Name="TextBlock_message"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"/>
+
+
+        <Button Grid.Row="1"
+            Content="OK"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Bottom"
+            Click="ClickButton_OK" 
+            Margin="0,0,5,5" 
+            Height="20" Width="60"/>
+    </Grid>
+</Window>

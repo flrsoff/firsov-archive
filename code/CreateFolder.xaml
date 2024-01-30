@@ -1,0 +1,61 @@
+﻿<Window x:Class="Archiver.CreateFolder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Archiver"
+        mc:Ignorable="d"
+        Title="Cоздать папку" Height="150" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" 
+                HorizontalAlignment ="Right">
+                Имя папки:
+            </TextBlock>
+            <TextBox Grid.Column="1"
+            x:Name="FolderName_TextBox"
+            VerticalAlignment="Center"
+            IsReadOnly="False" Margin="10,0,10,0"
+                     Text=""/>
+        </Grid>
+
+        
+
+        
+
+        <Grid Grid.Row = "4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="1"
+                    Content="Отмена" Click="Cancel_Click"
+                    Height="20" Width="60">
+
+            </Button>
+            <Button Grid.Column="2"
+                    Content="Создать" Click="Ok_Click"
+                    Height="20" Width="60">
+            </Button>
+        </Grid>
+
+
+
+
+
+
+    </Grid>
+</Window>

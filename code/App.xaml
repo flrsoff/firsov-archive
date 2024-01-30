@@ -1,0 +1,27 @@
+﻿<Application x:Class="Archiver.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Archiver"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <BitmapImage x:Key="FolderIcon" UriSource="C:\Users\user\Desktop\Resources\folder_.png" />
+        <BitmapImage x:Key="ProgramIcon" UriSource="C:\Users\user\Desktop\Resources\program.png" />
+        <BitmapImage x:Key="ProgramWindowIcon" UriSource="C:\Users\user\Desktop\Resources\program_window.png" />
+        <BitmapImage x:Key="TestIcon" UriSource="C:\Users\user\Desktop\Resources\program_window.png" />
+        <BitmapImage x:Key="Image_folder" UriSource="C:\Users\user\Desktop\Resources\folder.png"/>
+        <BitmapImage x:Key="Image_add-folder" UriSource="C:\Users\user\Desktop\Resources\add-folder.png"/>
+        <BitmapImage x:Key="Image_remove-folder" UriSource="C:\Users\user\Desktop\Resources\remove-folder.png"/>
+        <BitmapImage x:Key="Image_box" UriSource="C:\Users\user\Desktop\Resources\box.png"/>
+        <BitmapImage x:Key="Image_inbox" UriSource="C:\Users\user\Desktop\Resources\inbox.png"/>
+        <BitmapImage x:Key="Image_outbox" UriSource="C:\Users\user\Desktop\Resources\outbox.png"/>
+        <BitmapImage x:Key="Image_upload" UriSource="C:\Users\user\Desktop\Resources\upload.png"/>
+        <BitmapImage x:Key="Image_upload-16" UriSource="C:\Users\user\Desktop\Resources\upload-16.png"/>
+        <BitmapImage x:Key="Image_zip" UriSource="C:\Users\user\Desktop\Resources\zip.png"/>
+        <BitmapImage x:Key="Image_file" UriSource="C:\Users\user\Desktop\Resources\file.png"/>
+        <BitmapImage x:Key="Image_file-16" UriSource="C:\Users\user\Desktop\Resources\file-16.png"/>
+        <BitmapImage x:Key="Image_box-16" UriSource="C:\Users\user\Desktop\Resources\box-16.png"/>
+        <BitmapImage x:Key="Image_folder-16" UriSource="C:\Users\user\Desktop\Resources\folder-16.png"/>
+
+
+    </Application.Resources>
+</Application>
